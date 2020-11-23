@@ -1,0 +1,16 @@
+form (action = "." Method = "POST")
+  label (for = "nom") Nom:
+  contribution(
+    type = "texte"
+    id = "nom"
+    name = "nom"
+  )
+
+  label (for = "email") Email:
+  contribution(
+    type = "email"
+    id = "email"
+    name = "email"
+  )
+
+  input (type = "submit" value = "Soumettre")
